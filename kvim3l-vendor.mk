@@ -5,3 +5,5 @@
 PRODUCT_SOONG_NAMESPACES += \
     vendor/amlogic/kvim3l
 
+PRODUCT_COPY_FILES += \
+    vendor/amlogic/kvim3l/proprietary/vendor/usr/keylayout/Vendor_0001_Product_0001.kl:$(TARGET_COPY_OUT_VENDOR)/usr/keylayout/Vendor_0001_Product_0001.kl
